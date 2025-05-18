@@ -39,7 +39,7 @@ a professional and engaging way.
 - CSS custom properties
 - Mobile-first workflow
 - Flexbox
-- TailwindCss Utility Classes
+- TailwindCSS Utility Classes
 - Animation and Hover Effects
 
 ## Author
