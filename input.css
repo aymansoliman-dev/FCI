@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "NimbusSans";
-  src: url(/assets/fonts/NimbusSanL-Reg.otf);
+  src: url(assets/fonts/NimbusSanL-Reg.otf);
   font-weight: normal;
   font-style: normal;
 }
@@ -74,7 +74,7 @@ section h3:first-of-type {
 /* hero section */
 
 #hero {
-  background-image: url(/assets/college.jpg);
+  background-image: url(assets/college.jpg);
   background-position: 30% 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,15 +154,15 @@ section h3:first-of-type {
 }
 
 .department .figure.computer-science {
-  background-image: url(/assets/computer-science-1.jpg);
+  background-image: url(assets/computer-science-1.jpg);
 }
 
 .department .figure.information-systems {
-  background-image: url(/assets/information-systems.jpg);
+  background-image: url(assets/information-systems.jpg);
 }
 
 .department .figure.information-technology {
-  background-image: url(/assets/information-technology.jpg);
+  background-image: url(assets/information-technology.jpg);
   background-position: left;
 }
 
