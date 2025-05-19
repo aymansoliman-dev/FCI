@@ -3,12 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="shortcut icon" href="assets/logo-ar.png" type="image/x-icon" />
-
     <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="arabic-font.css" />
-
     <title>كلية الحاسبات والمعلومات</title>
   </head>
 
@@ -17,10 +14,10 @@
       <div class="container flex justify-between items-center">
         <div id="logo" class="flex items-center gap-2">
           <a href="#"
-            ><img src="assets/logo-ar.png" alt="الشعار" class="w-8 h-8"
+            ><img src="assets/logo-ar.png" alt="الشعار" class="w-6 h-6 md:w-8 md:h-8"
           /></a>
           <a href="#">
-            <h1 class="text-2xl font-bold">FCI</h1>
+            <h1 class="text-xl md:text-2xl font-bold">FCI</h1>
           </a>
         </div>
         <nav>
@@ -34,7 +31,7 @@
         <div class="flex gap-4">
           <div
             onclick="location.href='index.html'"
-            class="lang flex items-center gap-1.5 after:content-[''] after:block after:w-0.25 after:h-6 after:bg-gray-300 after:ml-2 cursor-pointer text-gray-500"
+            class="lang flex items-center gap-1.5 after:content-[''] after:block after:w-0.25 after:h-6 after:bg-gray-300 after:ml-1.5 cursor-pointer text-gray-500"
           >
             <svg
               width="20"
@@ -54,6 +51,20 @@
             <span>En</span>
           </div>
           <button class="text-nowrap">سجل الآن</button>
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="cursor-pointer md:hidden"
+            style="transform: scaleX(-1)"
+          >
+            <path d="M3 6h18M3 12h18m-7 6h7" />
+          </svg>
         </div>
       </div>
     </header>
@@ -151,51 +162,57 @@
           class="departments flex flex-col lg:flex-row gap-8 lg:gap-4 text-right"
         >
           <div class="department cursor-pointer">
-            <div
-              class="figure computer-science relative flex flex-col gap-4 justify-end-safe p-4 rounded-lg text-white -z-20"
-            >
-              <div class="layer"></div>
-              <h4 class="text-2xl">علوم الحاسب</h4>
-              <p
-                class="truncate overflow-hidden whitespace-nowrap max-w-xs text-sm text-gray-400"
+            <a href="departments/computer-science-ar.html">
+              <div
+                class="figure h-[350px] lg:h-[650px] computer-science relative flex flex-col gap-4 justify-end-safe p-4 rounded-lg text-white -z-20"
               >
-                برمجيات، أنظمة، وخوارزميات.
-              </p>
-            </div>
+                <div class="layer"></div>
+                <h4 class="text-2xl">علوم الحاسب</h4>
+                <p
+                  class="truncate overflow-hidden whitespace-nowrap max-w-xs text-sm text-gray-400"
+                >
+                  برمجيات، أنظمة، وخوارزميات.
+                </p>
+              </div>
+            </a>
             <div class="statistics">
               <span>عدد الطلاب</span>
               <span>+232</span>
             </div>
           </div>
           <div class="department cursor-pointer grow">
-            <div
-              class="figure information-systems relative flex flex-col gap-4 justify-end-safe p-4 rounded-lg text-white -z-20"
-            >
-              <div class="layer"></div>
-              <h4 class="text-2xl">نظم المعلومات</h4>
-              <p
-                class="truncate overflow-hidden whitespace-nowrap max-w-xs text-sm text-gray-400"
+            <a href="departments/information-systems-ar.html">
+              <div
+                class="figure h-[350px] lg:h-[650px] information-systems relative flex flex-col gap-4 justify-end-safe p-4 rounded-lg text-white -z-20"
               >
-                حلول تقنية لاحتياجات الأعمال.
-              </p>
-            </div>
+                <div class="layer"></div>
+                <h4 class="text-2xl">نظم المعلومات</h4>
+                <p
+                  class="truncate overflow-hidden whitespace-nowrap max-w-xs text-sm text-gray-400"
+                >
+                  حلول تقنية لاحتياجات الأعمال.
+                </p>
+              </div>
+            </a>
             <div class="statistics">
               <span>عدد الطلاب</span>
               <span>+704</span>
             </div>
           </div>
           <div class="department cursor-pointer">
-            <div
-              class="figure information-technology relative flex flex-col gap-4 justify-end-safe p-4 rounded-lg text-white -z-20"
-            >
-              <div class="layer"></div>
-              <h4 class="text-2xl">تكنولوجيا المعلومات</h4>
-              <p
-                class="truncate overflow-hidden whitespace-nowrap max-w-xs text-sm text-gray-400"
+            <a href="departments/information-technology-ar.html">
+              <div
+                class="figure h-[350px] lg:h-[650px] information-technology relative flex flex-col gap-4 justify-end-safe p-4 rounded-lg text-white -z-20"
               >
-                الشبكات، الصيانة، والدعم التقني.
-              </p>
-            </div>
+                <div class="layer"></div>
+                <h4 class="text-2xl">تكنولوجيا المعلومات</h4>
+                <p
+                  class="truncate overflow-hidden whitespace-nowrap max-w-xs text-sm text-gray-400"
+                >
+                  الشبكات، الصيانة، والدعم التقني.
+                </p>
+              </div>
+            </a>
             <div class="statistics">
               <span>عدد الطلاب</span>
               <span>+389</span>
@@ -238,15 +255,24 @@
             <form action="" class="text-sm font-extralight" dir="rtl">
               <div class="form__group">
                 <label for="fullName">الاسم الكامل</label>
-                <input type="text" id="fullName" name="full name" required />
+                <input 
+                  class="invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500"
+                  type="text" id="fullName" name="full name" required 
+                />
               </div>
               <div class="form__group">
                 <label for="lastSchool">رقم الهاتف</label>
-                <input type="tel" id="lastSchool" name="phone" required />
+                <input 
+                  class="invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500"
+                  type="tel" id="lastSchool" name="phone" required 
+                />
               </div>
               <div class="form__group">
                 <label for="email">البريد الإلكتروني</label>
-                <input type="email" id="email" name="email" required />
+                <input 
+                  class="invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500"
+                  type="email" id="email" name="email" required 
+                />
               </div>
               <div class="form__group">
                 <label for="message">الرسالة</label>
@@ -254,6 +280,7 @@
                   id="message"
                   name="message"
                   rows="2"
+                  class="invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500"
                   required
                 ></textarea>
               </div>

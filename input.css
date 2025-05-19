@@ -148,7 +148,6 @@ section h3:first-of-type {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
   z-index: -20;
   overflow: hidden;
 }

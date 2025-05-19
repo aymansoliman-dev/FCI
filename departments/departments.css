@@ -1,0 +1,19 @@
+.figure {
+  background-size: cover;
+}
+
+.figure.cs-department {
+  background-image: url(../assets/computer-science-1.jpg);
+}
+
+.figure.is-department {
+  background-image: url(../assets/information-systems.jpg);
+}
+
+.figure.it-department {
+  background-image: url(../assets/information-technology.jpg);
+}
+
+#dept .layer {
+    border-radius: 0.75rem
+}
