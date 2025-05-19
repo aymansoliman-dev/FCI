@@ -26,6 +26,10 @@ a professional and engaging way.
 
 ![Arabic Screenshot](screenshots/Ar.jpeg)
 
+## 
+
+![Departments Page](screenshots/CS%20Dept.jpeg)
+
 ### Links
 
 - Solution URL: [Challenge Solution]([ayman-soliman-1783/FCI](https://github.com/ayman-soliman-1783/FCI))
