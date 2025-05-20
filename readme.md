@@ -32,7 +32,7 @@ a professional and engaging way.
 
 ### Links
 
-- Solution URL: [Challenge Solution]([ayman-soliman-1783/FCI](https://github.com/ayman-soliman-1783/FCI))
+- Solution URL: [Challenge Solution](https://github.com/ayman-soliman-1783/FCI)
 - Live Site URL: [Live Preview](https://ayman-soliman-1783.github.io/FCI/)
 
 ## My process
