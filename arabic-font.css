@@ -4,14 +4,16 @@
   font-family: "Cairo", sans-serif;
 }
 
-.academic-excellence > div > div {
+.academic-excellence>div>div {
   position: relative;
   padding: 1rem;
   padding-right: 1rem;
 
   &::before {
     display: none
-  };
+  }
+
+  ;
 
   &::after {
     content: "";
