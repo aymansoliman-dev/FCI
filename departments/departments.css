@@ -17,3 +17,24 @@
 #dept .layer {
   border-radius: 0.75rem
 }
+
+#dept .container {
+  
+  @media (min-width: 768px) {
+    margin-bottom: -5rem;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: -10rem;
+  }
+}
+
+#staff .container {
+  @media (min-width: 768px) {
+    margin-top: 6rem;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 8rem;
+  }
+}
