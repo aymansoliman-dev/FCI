@@ -32,8 +32,8 @@ a professional and engaging way.
 
 ### Links
 
-- Solution URL: [Challenge Solution](https://github.com/ayman-soliman-1783/FCI)
-- Live Site URL: [Live Preview](https://ayman-soliman-1783.github.io/FCI/)
+- Solution URL: [Challenge Solution](https://github.com/aymansoliman-dev/FCI)
+- Live Site URL: [Live Preview](https://aymansoliman-dev.github.io/FCI/)
 
 ## My process
 
@@ -49,5 +49,5 @@ a professional and engaging way.
 ## Author
 
 - Website - [Ayman Soliman](https://bento.me/ayman-soliman)
-- Frontend Mentor - [@ayman-soliman-1783](https://www.frontendmentor.io/profile/ayman-soliman-1783)
+- Frontend Mentor - [aymansoliman-dev](https://www.frontendmentor.io/profile/aymansoliman-dev)
 - Twitter - [@a_soliman1783](https://x.com/a_soliman1783)
