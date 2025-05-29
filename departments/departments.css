@@ -38,3 +38,11 @@
     margin-top: 8rem;
   }
 }
+
+.topics {
+  margin-bottom: 5rem;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0rem;
+  }
+}
