@@ -6,7 +6,6 @@ node_modules/
 .env.local
 
 # Build output
-output.css
 dist/
 build/
 
